@@ -108,7 +108,7 @@
 		},
         "repoUrl": {
             "type": "string",
-			"defaultValue": "https://github.com/ddkserv/SonarQube-AzureAppService-AzureDatabase.git"
+			"defaultValue": "https://github.com/ArpanBalpande/SonarQube-AzureAppService-AzureDatabase.git"
         },
         "branch": {
             "type": "string",
@@ -190,7 +190,7 @@
                     ],
                     "properties": {
                         "alwaysOn": false,
-                        "javaVersion": "1.8",
+                        "javaVersion": "11",
                         "javaContainer": "TOMCAT",
                         "javaContainerVersion": "9.0"
                     }
